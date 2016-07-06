@@ -10,6 +10,16 @@
 		F27F02641C1964E600E0F888 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F02631C1964E600E0F888 /* main.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F27F02811C196F6800E0F888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F27F027D1C196F6700E0F888 /* test1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F27F02731C196F6600E0F888;
+			remoteInfo = test1;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		F27F025E1C1964E600E0F888 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,6 +35,7 @@
 /* Begin PBXFileReference section */
 		F27F02601C1964E600E0F888 /* swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27F02631C1964E600E0F888 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F27F027D1C196F6700E0F888 /* test1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = test1.xcodeproj; path = test1/test1.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +68,18 @@
 		F27F02621C1964E600E0F888 /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				F27F027D1C196F6700E0F888 /* test1.xcodeproj */,
 				F27F02631C1964E600E0F888 /* main.swift */,
 			);
 			path = swift;
+			sourceTree = "<group>";
+		};
+		F27F027E1C196F6700E0F888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27F02821C196F6800E0F888 /* test1 */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,12 +127,28 @@
 			mainGroup = F27F02571C1964E600E0F888;
 			productRefGroup = F27F02611C1964E600E0F888 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F27F027E1C196F6700E0F888 /* Products */;
+					ProjectRef = F27F027D1C196F6700E0F888 /* test1.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F27F025F1C1964E600E0F888 /* swift */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F27F02821C196F6800E0F888 /* test1 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = test1;
+			remoteRef = F27F02811C196F6800E0F888 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F27F025C1C1964E600E0F888 /* Sources */ = {
