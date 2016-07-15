@@ -12,6 +12,8 @@
 		F211BFFD1D2D3A7500DC799C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F211BFFB1D2D3A7500DC799C /* Main.storyboard */; };
 		F211BFFF1D2D3A7500DC799C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F211BFFE1D2D3A7500DC799C /* Assets.xcassets */; };
 		F211C0021D2D3A7500DC799C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F211C0001D2D3A7500DC799C /* LaunchScreen.storyboard */; };
+		F21F440E1D38B49F007BC965 /* Swift lesson1.app in Resources */ = {isa = PBXBuildFile; fileRef = F211BFF41D2D3A7500DC799C /* Swift lesson1.app */; };
+		F2F90B261D36751D00DC2BB5 /* NotoSansCJKtc-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2F90B251D36751D00DC2BB5 /* NotoSansCJKtc-Black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		F211BFFE1D2D3A7500DC799C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F211C0011D2D3A7500DC799C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F211C0031D2D3A7500DC799C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F90B251D36751D00DC2BB5 /* NotoSansCJKtc-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKtc-Black.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 			children = (
 				F211BFF61D2D3A7500DC799C /* Swift lesson1 */,
 				F211BFF51D2D3A7500DC799C /* Products */,
+				F2F90B251D36751D00DC2BB5 /* NotoSansCJKtc-Black.otf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21F440E1D38B49F007BC965 /* Swift lesson1.app in Resources */,
+				F2F90B261D36751D00DC2BB5 /* NotoSansCJKtc-Black.otf in Resources */,
 				F211C0021D2D3A7500DC799C /* LaunchScreen.storyboard in Resources */,
 				F211BFFF1D2D3A7500DC799C /* Assets.xcassets in Resources */,
 				F211BFFD1D2D3A7500DC799C /* Main.storyboard in Resources */,
@@ -295,6 +301,7 @@
 				F211C0081D2D3A7500DC799C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
