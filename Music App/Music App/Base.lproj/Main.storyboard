@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dvz-6C-8ub">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--音樂慶典-->
+        <scene sceneID="V12-3n-GHb">
+            <objects>
+                <viewController id="vd8-Gk-8nb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VYP-Kc-n4G"/>
+                        <viewControllerLayoutGuide type="bottom" id="DuR-5Z-LXX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rgf-ze-qSJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.66017887833819" green="0.83846179513832608" blue="0.93950320512820518" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="音樂慶典" id="4b8-2g-Gee"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y5D-e4-eo8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3794.4000000000001" y="622.93853073463276"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Fv7-rM-7Gk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="F2r-bk-Jp5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ass-tQ-Rb1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vd8-Gk-8nb" kind="relationship" relationship="rootViewController" id="1Ut-cI-6P9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QAn-AQ-2MC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2855.1999999999998" y="622.93853073463276"/>
+        </scene>
+        <!--歌手清單頁-1-->
+        <scene sceneID="h5r-88-frM">
+            <objects>
+                <tableViewController title="歌手清單頁-1" id="M2t-x8-BWG" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="nZk-VP-hVZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="歌手清單" id="pLL-wk-yIr">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="wT9-Lh-85f" detailTextLabel="47k-CJ-ob8" rowHeight="80" style="IBUITableViewCellStyleValue1" id="Vte-h2-CC3">
+                                        <rect key="frame" x="0.0" y="92" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vte-h2-CC3" id="EeK-go-t6b">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Tinashe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wT9-Lh-85f">
+                                                    <frame key="frameInset" minX="15" minY="28" width="71" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="西洋-女歌手" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="47k-CJ-ob8">
+                                                    <frame key="frameInset" minX="276.5" minY="33" width="83.5" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Kxm-2m-PQH" kind="show" id="JBu-mc-y9d"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="qgU-Uh-okl" detailTextLabel="qW3-Tr-vmS" rowHeight="80" style="IBUITableViewCellStyleValue1" id="daA-76-D9y">
+                                        <rect key="frame" x="0.0" y="172" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="daA-76-D9y" id="M7H-Kp-jhf">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Taylor Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qgU-Uh-okl">
+                                                    <frame key="frameInset" minX="15" minY="28" width="104" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="西洋-女歌手" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qW3-Tr-vmS">
+                                                    <frame key="frameInset" minX="276.5" minY="33" width="83.5" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="jNd-WW-5qE" kind="show" id="zOh-5N-iF7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="9yJ-ge-EpV" detailTextLabel="XBP-Fk-Id2" rowHeight="80" style="IBUITableViewCellStyleValue1" id="OjL-YS-JVP">
+                                        <rect key="frame" x="0.0" y="252" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OjL-YS-JVP" id="bcQ-2g-o3j">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Maroon 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9yJ-ge-EpV">
+                                                    <frame key="frameInset" minX="15" minY="28" width="85.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="西洋-團體" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XBP-Fk-Id2">
+                                                    <frame key="frameInset" minX="291.5" minY="33" width="68.5" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Ima-U2-P5q" kind="show" id="NUF-i2-yoI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="M2t-x8-BWG" id="jIp-rD-cT3"/>
+                            <outlet property="delegate" destination="M2t-x8-BWG" id="7nC-oa-O2T"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="9Ls-vX-xnN">
+                        <barButtonItem key="backBarButtonItem" title="回到歌手頁" id="8PX-f1-uR6"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lmU-Fm-Pig" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5655.1999999999998" y="1381.2593703148427"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="Lqf-sH-OiD">
+            <objects>
+                <viewController id="ULl-Fg-T48" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gfg-0g-2Oi"/>
+                        <viewControllerLayoutGuide type="bottom" id="gEH-Ea-SIi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w2c-a9-1lZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Fec-jr-ylW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hPv-Z9-t7g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2740" y="2416"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="oh5-7Q-DGs">
+            <objects>
+                <viewController id="n9T-TN-l0N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5F6-BU-2hP"/>
+                        <viewControllerLayoutGuide type="bottom" id="pyF-aR-vdo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mgh-tT-uBA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="9Gp-Z8-WVD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lzI-Zf-RxR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2740" y="1761"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Jlj-A0-OIU">
+            <objects>
+                <tabBarController id="RTC-YR-nqr" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hnh-aj-PRs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="n9T-TN-l0N" kind="relationship" relationship="viewControllers" id="X0z-jF-lmA"/>
+                        <segue destination="ULl-Fg-T48" kind="relationship" relationship="viewControllers" id="Yfp-l6-utn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AHg-Dr-ASd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1792" y="2089"/>
+        </scene>
+        <!--首頁-->
+        <scene sceneID="DB5-TD-IMf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cdn-4G-znX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首頁" id="WvJ-ym-XUA"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SPi-6e-Bsd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="M2t-x8-BWG" kind="relationship" relationship="rootViewController" id="NVy-uz-Koj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pUx-aj-FcX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4716" y="1381.2593703148427"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="7qo-Om-bQ9">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jmF-Yq-0dz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="KLv-Lj-OBr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cPR-um-bi8"/>
+                        <viewControllerLayoutGuide type="bottom" id="hAs-kj-xdO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3NE-sd-jLk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Lyg-97-a7u"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="4566" y="-745"/>
+        </scene>
+        <!--Tinashe歌詞清單頁-->
+        <scene sceneID="Iur-Pl-WG7">
+            <objects>
+                <tableViewController title="Tinashe歌詞清單頁" id="Kxm-2m-PQH" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="r5x-pX-3iv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="TbP-WB-96w">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="QgO-RF-7bm" detailTextLabel="Fzq-di-KrP" rowHeight="80" style="IBUITableViewCellStyleValue1" id="UM4-qp-4Zr">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UM4-qp-4Zr" id="CPC-Ke-Yhj">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="2 on" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QgO-RF-7bm">
+                                                    <frame key="frameInset" minX="15" minY="28" width="39.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Aquarius" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fzq-di-KrP">
+                                                    <frame key="frameInset" minX="299.5" minY="33" width="60.5" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="jfy-Hp-NMb" kind="show" id="PXK-rv-LM4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="g3V-aV-gNd" detailTextLabel="7ks-bY-lDT" rowHeight="80" style="IBUITableViewCellStyleValue1" id="Y3M-Cu-zUM">
+                                        <rect key="frame" x="0.0" y="144" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y3M-Cu-zUM" id="B9Z-ej-IBh">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g3V-aV-gNd">
+                                                    <frame key="frameInset" minX="15" minY="28" width="55.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Player" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7ks-bY-lDT">
+                                                    <frame key="frameInset" minX="317.5" minY="33" width="42.5" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="LaW-uO-mkm" kind="show" id="Cbf-nL-MOT"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Kxm-2m-PQH" id="bAP-yT-m29"/>
+                            <outlet property="delegate" destination="Kxm-2m-PQH" id="J0i-sw-Lmr"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="歌曲清單" id="2ln-zf-Zls">
+                        <barButtonItem key="backBarButtonItem" title="歌單" id="ip4-dP-flq"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3fc-s7-Jui" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5330" y="223"/>
+        </scene>
+        <!--Tinashe - 2 On-->
+        <scene sceneID="n44-rf-qRt">
+            <objects>
+                <viewController id="jfy-Hp-NMb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NRN-LJ-YrG"/>
+                        <viewControllerLayoutGuide type="bottom" id="BAN-kk-Mka"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WzF-sh-IdN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2a5-E6-NQx">
+                                <frame key="frameInset" minX="8" minY="72" width="359" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">[Verse Annotate1:Tinashe]
+Give me all that you got now
+Make you want me cause I'm hot now
+I'm gone, so faded I'm on one
+Bang bang, pop off like the long gun
+
+[Bridge: Tinashe]
+If you a lame, nigga you ain't making no noise
+Get faded, turn up with the big boys
+Live fast, die young that's my choice
+Get money, get money like the invoice
+Make the money make the whip
+Make the money make the grip
+I be stuntin' with my clique
+Getting faded 'till we trip
+
+[Hook: Tinashe]
+Man, I love to get on
+I love to get 2 on
+When the drink be too strong
+When the tree be way too strong
+Get faded, turn up, pour it on up
+'Till I can't even think no more
+Get ratchet, go dumb then go more dumb
+Then we can keep it lit, let's roll
+I love to get 2 on
+L-l-let's roll (×4)
+
+[Verse 2: Tinashe]
+Yea we can get active
+And all my bitches attractive
+We go, you know who we are now
+Get high, hotbox in my car now
+
+[Bridge]+ [Hook]
+
+[Verse 3: Schoolboy Q]
+Uh, pull your panties down from under you
+Beat that pussy up, make you wanna holla Q
+Drunk than a bitch, high on that Mary Jane
+Pussy in my mouth, pussy on my pinky ring
+Nasty, make me do it in the backseat
+Swear this marijuana keep it cracking
+Lights, camera, action, I ain't doing nothing to the cash
+Money, money, money, weed, fashion
+Draped up and dripped out, keep the trees passing
+Girl twerk that thing up, fuck me, fuck rapping
+Days of our lives so clap, clap that cake
+Spreading your thighs I pump, pump your brakes
+
+[Verse 4: Tinashe]
+Just give me the trees and we can smoke it gyal
+Just give me the drink and we can pour it gyal
+And my enemies, they see me living now
+If you rolling with me, then you'll be winning now</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tinashe - 2 On" id="t3q-tk-g17">
+                        <barButtonItem key="backBarButtonItem" title="Tinashe" id="Hh0-aJ-NFv"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Sg-U9-nTj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6093" y="-241"/>
+        </scene>
+        <!--Tinashe - Player-->
+        <scene sceneID="0He-pU-Txq">
+            <objects>
+                <viewController title="Tinashe - Player" id="LaW-uO-mkm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RUv-Vk-hM0"/>
+                        <viewControllerLayoutGuide type="bottom" id="fth-OM-Pqj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nKK-zd-yro">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cQ6-ya-u1g">
+                                <frame key="frameInset" minX="8" minY="72" width="359" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Live life like if I want, I do
+If I want love, I get it, get it, I get it
+Fooled me twice, if I fall for you
+If I go there, forget it
+
+So you better stay up, player
+Yeah, you better keep up, player
+Cause tonight is a game-changer
+So you better stay up, player
+
+Playing with fire, if I burn, you do
+If I hurt, you won’t let it, you won’t let it
+Stacked my deck like I ain’t gon’ lose
+Like a victim, forget it
+
+So you better stay up, player
+Yeah, you better keep up, player
+Cause tonight is a game-changer
+So you better stay up, up, player
+
+You and I make so much love
+Why you got me all fucked up?
+Yeah, you got me holdin’ back, holdin’ back
+But it ain’t enough
+You and I make so much love
+Why you got me all fucked up?
+Yeah, you got me holdin’ back, holdin’ back
+Cause it ain’t enough
+
+All right, baby girl, I don’t want them other bitches
+You be talking that shit, calling me a player, yeah
+Ain’t no competition, fuck the opposition
+I’m the man of my city, just like the mayor
+I met her in the hotel lobby
+Then we started loving in the elevator
+You know I had to eat that
+Tongue on her body, see you later, alligator
+
+Rolling ’round in the bed, smacking her on her ass
+She a stone-cold killer, 45 in the back
+Mama told her never mess with a nigga like me
+I took her to Fruit Town to meet my OG
+I took her to the west side, like “What’s up?”
+We was on the east side, we fucked
+Now we sitting court-side, P-dub
+Put me in the bed; you ain’t gotta worry ’bout it
+
+Yeah, you better stay up, player
+Yeah, you better keep up, player
+Cause tonight is a game-changer
+So you better stay up, up, player, up
+
+You and I make so much love
+Why you got me all fucked up?
+Yeah, you got me holdin’ back, holdin’ back
+But it ain’t enough
+You and I make so much love
+Why you got me all fucked up?
+Yeah, you got me holdin’ back, holdin’ back
+Cause it ain’t enough
+
+You and I make so much love (I been wanna give up, nah)
+Why you got me all fucked up? (But you’re making it rough, nah)
+Yeah, you got me holdin’ back, holdin’ back (You got me)
+But it ain’t enough (Holdin’ back, holdin’ back, back)
+You and I make so much love (I been wanna give up, nah)
+Why you got me all fucked up? (But you’re making it rough, nah)
+Yeah, you got me holdin’ back, holdin’ back
+Cause it ain’t enough
+
+(Ain’t enough) Player
+(Ain’t enough)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tinashe - Player" id="NYW-kP-YIs">
+                        <barButtonItem key="backBarButtonItem" title="Tinashe歌單" id="SrT-cc-CP2"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CBW-Sj-Smx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6092" y="540"/>
+        </scene>
+        <!--Taylor Swift歌詞清單頁-->
+        <scene sceneID="GpF-Mh-yl8">
+            <objects>
+                <tableViewController title="Taylor Swift歌詞清單頁" id="jNd-WW-5qE" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="kp1-l0-fUH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="fbc-Nm-uxd">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="o9l-HX-OXT" detailTextLabel="wp2-MZ-FCd" rowHeight="80" style="IBUITableViewCellStyleValue1" id="BC6-Jo-kP8">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BC6-Jo-kP8" id="TNz-sw-oit">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Wildest Dreams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o9l-HX-OXT">
+                                                    <frame key="frameInset" minX="15" minY="28" width="141.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="1989" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wp2-MZ-FCd">
+                                                    <frame key="frameInset" minX="325" minY="33" width="35" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="iqL-cl-RDh" kind="show" id="2A8-kE-AUP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="LSS-Uz-CCv" detailTextLabel="wfz-Yr-KAp" rowHeight="80" style="IBUITableViewCellStyleValue1" id="wow-1A-1fX">
+                                        <rect key="frame" x="0.0" y="144" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wow-1A-1fX" id="ThU-KG-bMQ">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Blank Space" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LSS-Uz-CCv">
+                                                    <frame key="frameInset" minX="15" minY="28" width="111.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="1989" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wfz-Yr-KAp">
+                                                    <frame key="frameInset" minX="325" minY="33" width="35" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="y77-fo-ANf" kind="show" id="ufS-rX-3cf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="jNd-WW-5qE" id="nfn-XJ-hJN"/>
+                            <outlet property="delegate" destination="jNd-WW-5qE" id="jSi-tb-wrE"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="歌曲清單" id="ih5-Ro-Egx">
+                        <barButtonItem key="backBarButtonItem" title="歌單" id="3VM-Y6-Y9X"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KSp-ZF-d9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6847.1999999999998" y="1312.8935532233884"/>
+        </scene>
+        <!--Taylor Swift - Wildest Dreams-->
+        <scene sceneID="Vut-HS-uNo">
+            <objects>
+                <viewController title="Taylor Swift - Wildest Dreams" id="iqL-cl-RDh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wZc-pj-iaO"/>
+                        <viewControllerLayoutGuide type="bottom" id="zXw-tO-2co"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3ig-Ag-OC7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HhZ-JE-9BI">
+                                <frame key="frameInset" minX="8" minY="72" width="359" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">He said let's get out of this town
+他說 一起走吧
+Drive out of the city
+逃離這座城市
+Away from the crowds
+遠離紛擾的人群
+I thought heaven can't help me now
+我以為連天堂都愛莫能助
+Nothing lasts forever
+沒有什麼事物是永恆的
+
+But this is gonna take me down
+但他的出現讓我內心瓦解
+
+He's so tall, and handsome as hell
+他高大俊美無比
+He's so bad but he does it so well
+他是壞男人 卻壞得恰如其分
+I can see the end as it begins
+一切才剛開始 我已預知了結局
+My one condition is
+但我唯一的條件是...
+
+Say you'll remember me
+說你會記得我
+Standing in a nice dress, staring at the sun set babe
+穿著美麗的禮服 凝望著日落
+Red lips and rosy cheeks
+還有我的紅唇與粉頰
+Say you'll see me again even if it's just in your wildest dreams
+說你會與我重逢 就算是在狂野的夢中
+Wildest dreams
+狂野的夢
+
+I say no one has to know what we do
+我說 沒有人需要知道我們的一舉一動
+His hands are in my hair, his clothes are in my room
+他撫摸我的髮 他的衣服在我的房間
+And his voice is a familiar sound, nothing lasts forever
+他的聲音好熟悉 雖然沒有事物能長久
+But this is getting good now
+但我漸漸地相信永遠
+
+
+He's so tall, and handsome as hell
+他高大俊美無比
+He's so bad but he does it so well
+他是壞男人 壞得恰如其分
+And when we've had our very last kiss
+在我們的分手之吻後
+But my last request is
+這是我最後的請求...
+
+Say you'll remember me
+說你會記得我
+Standing in a nice dress, staring at the sun set babe
+穿著美麗的禮服 凝望著日落
+Red lips and rosy cheeks
+還有我的紅唇與粉頰
+Say you'll see me again even if it's just in your wildest dreams
+說你會與我重逢 就算是在狂野的夢中
+Wildest dreams
+狂野的夢
+
+You'll see me in hindsight tangled up with you all night
+你會在和我纏綿一整晚之後
+Burn it down
+看見我抹去這一切
+Some day when you leave me
+有ㄧ天 當你選擇離開時
+I bet these memories follow you around
+我篤定那些回憶 將和你形影不離
+
+You'll see me in hindsight tangled up with you all night
+你會在和我纏綿一整晚之後
+Burn it down
+看見我抹去這一切
+Some day when you leave me
+有ㄧ天 當你選擇離開時
+I bet these memories follow you around
+我篤定那些回憶 將和你形影不離
+
+Say you'll remember me
+說你會記得我
+Standing in a nice dress, staring at the sun set babe
+穿著美麗的禮服 凝望著日落
+Red lips and rosy cheeks
+紅唇與粉頰
+Say you'll see me again even if it's just pretend
+說你會與我重逢 就算是謊言
+
+Say you'll remember me
+說你會記得我
+Standing in a nice dress, staring at the sun set babe
+穿著美麗的禮服 凝望著日落
+Red lips and rosy cheeks
+紅唇與粉頰
+Say you'll see me again even if it's just in your wildest dreams
+說你會與我相會 就算是在你最狂野的夢中
+Wildest dreams
+狂野的夢裡
+
+Even if it's just in your wildest dreams
+就算是在你狂野的夢裡
+In your wildest dreams
+在你狂野的夢裡
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Taylor Swift - Wildest Dreams" id="e9t-8N-Voq">
+                        <barButtonItem key="backBarButtonItem" title="Taylor Swift歌單" id="plq-Bi-fJX"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="078-o0-vWZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7653.6000000000004" y="909.89505247376314"/>
+        </scene>
+        <!--Taylor Swift - Blank Space-->
+        <scene sceneID="lJT-Ne-GDD">
+            <objects>
+                <viewController title="Taylor Swift - Blank Space" id="y77-fo-ANf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nA2-fC-P32"/>
+                        <viewControllerLayoutGuide type="bottom" id="igI-UG-9Q3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dQ5-O9-5Kv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A0d-5Q-EHS">
+                                <frame key="frameInset" minX="8" minY="72" width="359" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">[Verse 1]
+Nice to meet you, where you been? 
+很高興認識你 以前怎麼沒見過?
+I could show you incredible things 
+我可以秀給你看 什麼叫不可思議的愛情
+Magic, madness, heaven sin 
+宛如魔法 瘋狂 與幸福的讓人罪惡 
+Saw you there and I thought 
+看到你 我心想著
+Oh my God, look at that face 
+我的天 看那帥哥
+You look like my next mistake
+你看起來像 我的下個美好的錯誤
+Love's a game, want to play? 
+愛情是場遊戲 想不想參一局?
+New money, suit &amp; tie 
+衣冠楚楚 物質享受
+I can read you like a magazine 
+不需太多了解 隨意翻閱你
+Ain't it funny, rumors, lie 
+不 這些都只是可笑的流言蜚語
+And I know you heard about me
+我知道 你大概聽過那樣的我
+So hey, let's be friends
+那好吧 我們先從朋友做起
+I'm dying to see how this one ends 
+我期待看看結局如何
+Grab your passport and my hand 
+拿好你的護照 我們環球冒險
+I can make the bad guys good for a weekend 
+我可以讓壞男孩 安份地度過週末
+
+[Pre-Chorus]
+So it's gonna be forever 
+我們會攜手度過一生
+Or it's gonna go down in flames 
+又或是 在火花中落幕
+You can tell me when it's over 
+當一切都結束 再把你的謊言說出
+If the high was worth the pain 
+瘋狂愛戀後的痛苦 總是值得的
+Got a long list of ex-lovers 
+大串的清單 滿滿都是前任
+They'll tell you I'm insane 
+人們說著我瘋了
+Cause you know I love the players 
+但你要知道 我愛上的都是玩咖
+And you love the game 
+而你也是其中之一
+
+[Chorus]
+Cause we're young and we're reckless 
+因為我們年輕氣盛 做事魯莽
+We'll take this way too far 
+我們進展太快
+It'll leave you breathless 
+它會變成 嬌羞的愛情
+Or with a nasty scar 
+又或是 一道傷疤
+Got a long list of ex-lovers 
+大串的清單 滿滿都是前任
+They'll tell you I'm insane 
+人們說著我瘋了
+But I've got a blank space baby 
+但永遠會有個空位
+And I'll write your name 
+而我會填上你的名
+
+[Verse 2]
+Cherry lips, crystal skies 
+桃色蜜唇 透徹的天際
+I could show you incredible things 
+我可以秀給你看 什麼叫不可思議的愛情
+Stolen kisses, pretty lies 
+偷偷親吻 甜蜜的謊言
+You're the King baby I'm your Queen 
+你是國王 那我就是你的皇后
+Find out what you want 
+你想要什麼
+Be that girl for a month 
+我都會為你改變
+Wait the worst is yet to come, oh no 
+最糟的還沒來呢 噢不
+Screaming, crying, perfect storm 
+尖叫 痛哭 愛情風暴
+I can make all the tables turn 
+氣得我 大翻桌
+Rose gardens filled with thorns 
+愛情玫瑰園 裡頭充滿的荊棘
+Keep you second guessing like 
+猜你的反應會是
+"Oh my God, who is she?”
+我的老天 那女孩是誰?
+I get drunk on jealousy 
+我被嫉妒 灌得醉醺
+But you'll come back each time you leave 
+但每次分開後 你又會回頭
+Cause darling I'm a nightmare dressed like a daydream 
+因為親愛的 我是披著美好夢寐的夢魘 
+
+[Pre-Chorus]
+So it's gonna be forever 
+我們會攜手度過一生
+Or it's gonna go down in flames 
+又或是 在火花中落幕
+You can tell me when it's over 
+當一切都結束 再把你的謊言說出
+If the high was worth the pain 
+瘋狂愛戀後的痛苦 總是值得的
+Got a long list of ex-lovers 
+大串的清單 滿滿都是前任
+They'll tell you I'm insane 
+人們說著我瘋了
+Cause you know I love the players 
+但你要知道 我愛上的都是玩咖
+And you love the game 
+而你也是其中之一
+
+[Chorus]
+Cause we're young and we're reckless 
+因為我們年輕氣盛 做事魯莽
+We'll take this way too far 
+我們進展太快
+It'll leave you breathless 
+它會變成 嬌羞的愛情
+Or with a nasty scar 
+又或是 一道傷疤
+Got a long list of ex-lovers 
+大串的清單 滿滿都是前任
+They'll tell you I'm insane 
+人們說著我瘋了
+But I've got a blank space baby 
+但永遠會有個空位
+And I'll write your name 
+而我會填上你的名
+
+[Bridge] (x2)
+Boys only want love if it's torture 
+男孩只想要 麻煩的愛情
+Don't say I didn't say I didn't warn ya 
+可別說我 沒事先警告你
+
+[Pre-Chorus]
+So it's gonna be forever 
+我們會攜手度過一生
+Or it's gonna go down in flames 
+又或是 在火花中落幕
+You can tell me when it's over 
+當一切都結束 再把你的謊言說出
+If the high was worth the pain 
+瘋狂愛戀後的痛苦 總是值得的
+Got a long list of ex-lovers 
+大串的清單 滿滿都是前任
+They'll tell you I'm insane 
+人們說著我瘋了
+Cause you know I love the players 
+但你要知道 我愛上的都是玩咖
+And you love the game 
+而你也是其中之一
+
+[Chorus]
+Cause we're young and we're reckless 
+因為我們年輕氣盛 做事魯莽
+We'll take this way too far 
+我們進展太快
+It'll leave you breathless
+它會變成 嬌羞的愛情
+Or with a nasty scar 
+又或是 一道傷疤
+Got a long list of ex-lovers 
+大串的清單 滿滿都是前任
+They'll tell you I'm insane 
+人們說著我瘋了
+But I've got a blank space baby 
+但永遠會有個空位
+And I'll write your name 
+而我會填上你的名</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Taylor Swift - Blank Space" id="uoe-Z0-ZyC">
+                        <barButtonItem key="backBarButtonItem" title="Taylor Swift歌單" id="vFa-BO-BVn"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ORZ-kj-UB4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7652" y="1573.7631184407796"/>
+        </scene>
+        <!--Maroon 5 歌詞清單頁-->
+        <scene sceneID="ddh-so-fLn">
+            <objects>
+                <tableViewController title="Maroon 5 歌詞清單頁" id="Ima-U2-P5q" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6H7-nY-Liy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="RM4-bG-OWE">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="3bQ-Jb-cNn" detailTextLabel="n8X-Xk-gVF" rowHeight="80" style="IBUITableViewCellStyleValue1" id="Hnf-RX-ENe">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hnf-RX-ENe" id="sef-sh-5yC">
+                                            <frame key="frameInset" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Sugar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3bQ-Jb-cNn">
+                                                    <frame key="frameInset" minX="15" minY="28" width="53" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="V (Asis tour edition)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n8X-Xk-gVF">
+                                                    <frame key="frameInset" minX="225" minY="33" width="135" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ek2-Nb-lND" kind="show" id="XTv-Om-bn0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="eUy-ed-AxB" detailTextLabel="3Gf-iX-J4T" rowHeight="80" style="IBUITableViewCellStyleValue1" id="OD1-QE-DUG">
+                                        <rect key="frame" x="0.0" y="144" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OD1-QE-DUG" id="Qsj-F9-mBP">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Animals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eUy-ed-AxB">
+                                                    <frame key="frameInset" minX="15" minY="28" width="71.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="V (Asis tour edition)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Gf-iX-J4T">
+                                                    <frame key="frameInset" minX="225" minY="33" width="135" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="k4o-0C-cGF" kind="show" id="4Gb-9t-QV9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="tPZ-h4-S04" detailTextLabel="2hh-Fv-agp" rowHeight="80" style="IBUITableViewCellStyleValue1" id="aod-v7-tAU">
+                                        <rect key="frame" x="0.0" y="224" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aod-v7-tAU" id="kHP-ko-5c5">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Payphone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tPZ-h4-S04">
+                                                    <frame key="frameInset" minX="15" minY="28" width="89.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="V (Asis tour edition)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2hh-Fv-agp">
+                                                    <frame key="frameInset" minX="225" minY="33" width="135" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="k9l-i9-T4k" kind="show" id="T8H-zq-gau"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="9Vb-in-3xq" detailTextLabel="0az-ze-HZq" rowHeight="80" style="IBUITableViewCellStyleValue1" id="7mH-xP-iTF">
+                                        <rect key="frame" x="0.0" y="304" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7mH-xP-iTF" id="8iL-SO-bW3">
+                                            <frame key="frameInset" width="375" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Maps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Vb-in-3xq">
+                                                    <frame key="frameInset" minX="15" minY="28" width="49.5" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="V (Asis tour edition)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0az-ze-HZq">
+                                                    <frame key="frameInset" minX="225" minY="33" width="135" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <color key="textColor" red="0.1739993178" green="0.53242949139999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eom-aO-JzC" kind="show" id="bLX-XJ-Njb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Ima-U2-P5q" id="03P-OA-o43"/>
+                            <outlet property="delegate" destination="Ima-U2-P5q" id="fpm-If-zf4"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="歌曲清單" id="5tg-ob-de1">
+                        <barButtonItem key="backBarButtonItem" title="歌單" id="r60-qv-OWX"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qsn-Rz-9Aj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5803" y="2475"/>
+        </scene>
+        <!--Maroon 5 - Sugar-->
+        <scene sceneID="kZZ-Hh-2Cl">
+            <objects>
+                <viewController title="Maroon 5 - Sugar" id="ek2-Nb-lND" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ecu-xx-jrc"/>
+                        <viewControllerLayoutGuide type="bottom" id="mDD-hM-R1S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="poa-J4-pQx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="n8F-9Y-7YB">
+                                <frame key="frameInset" minX="8" minY="72" width="359" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I'm hurting baby,
+我飽受傷害 寶貝
+I'm broken down
+瀕臨崩潰
+I need your loving, loving
+需要你的熱愛 你的呵護
+I need it now
+現在就來吧
+When I'm without you
+當我失去你
+I'm something weak
+渾身彷彿不對勁 失去元氣
+You got me begging, begging
+你讓我求神問天
+I'm on my knees
+跪地問神
+I don't wanna be needing your love
+我不想要 讓愛你只是需求
+
+
+I just wanna be deep in your love
+我只想要 愛你深切入心
+And it's killing me when you're away
+你不在時 感覺生不如死啊
+Ooh baby, 'cause a bullet don't care where you are
+噢寶貝 我是個硬漢 我才不介意你去哪裡
+I just wanna be there where you are
+反正妳去哪兒 我就跟到那兒
+And I gotta get one little taste
+而我想要 來點
+
+ 
+
+Sugar
+甜頭
+Yes please
+是的 拜託
+Won't you come and put in down on me
+何不來我懷抱 撲上我吧
+Oh right here, 'cause I need
+直接來吧 因為我好缺
+Little love and little sympathy
+缺點熱愛和憐憫
+Yeah you show me good loving
+你讓我見識 何謂真愛
+Make it alright
+讓一切 完美無缺
+Need a little sweetness in my life
+人生就是需要一點 甜蜜情趣
+Sugar
+甜心
+Yes please
+是的 拜託
+Won't you come and put in down on me
+何不來我懷抱 撲上我吧
+
+ 
+
+My broken pieces
+生命破碎的環節
+You pick them up
+是你填補的
+Don't leave me hanging, hanging
+你不會 離我而去 晾我一人吧??
+Come give me some
+過來滿足我吧
+When I'm without ya
+失去你
+I'm so insecure
+令我手足無措
+You are the one thing, one thing
+你就是唯一目標 唯一要素
+I'm living for
+督促我存活
+
+I don't wanna be needing your love
+我不想要 讓愛你只是需求
+I just wanna be deep in your love
+我只想要 愛你深切入心
+And it's killing me when you're away
+你不在時 感覺生不如死啊
+Ooh baby, 'cause a bullet don't care where you are
+噢寶貝 我是個硬漢 我才不介意你去哪裡
+I just wanna be there where you are
+反正妳去哪兒 我就跟到那兒
+And I gotta get one little taste
+而我想要 來點
+
+ 
+
+Sugar
+甜頭
+Yes please
+是的 拜託
+Won't you come and put in down on me
+何不來我懷抱 撲上我吧
+Oh right here, 'cause I need
+直接來吧 因為我好缺
+Little love and little sympathy
+缺點熱愛和憐憫
+Yeah you show me good loving
+你讓我見識 何謂真愛
+Make it alright
+讓一切 完美無缺
+Need a little sweetness in my life
+人生就是需要一點 甜蜜情趣
+Sugar
+甜心
+Yes please
+是的 拜託
+Won't you come and put in down on me
+何不來我懷抱 撲上我吧
+
+ 
+
+Yeah, I want that red velvet
+想要 紅絲絨的高貴柔軟
+I want that sugar sweet
+渴望 糖果的甜蜜甘美
+Don't let nobody touch it
+我不准讓任何人觸碰你
+Unless that somebody is me
+除非那個任何人 是我
+I gotta be a man
+我想要成為 真正的男人
+There ain't no other way
+成為的途徑 別無他條 就是占有你
+'Cause girl you're hotter than southern California bae
+因為女孩你阿 比加州南部的任何妹都還要火辣
+
+
+I don't wanna play no games
+我才不要 毫無花樣把戲
+I don't gotta be afraid
+我才不會 畏懼退縮
+Don't give all that shy shit
+別給我來 害羞那招
+No make up on
+少做作了
+That's my
+這就是我</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Maroon 5 - Sugar" id="t0g-A4-0H3">
+                        <barButtonItem key="backBarButtonItem" title="Maroon 5歌單" id="dQm-kS-Wc0"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wa3-4q-nSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6528" y="2285"/>
+        </scene>
+        <!--Maroon 5 - Animals-->
+        <scene sceneID="Eey-Fx-RSb">
+            <objects>
+                <viewController title="Maroon 5 - Animals" id="k4o-0C-cGF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Akw-UO-pfV"/>
+                        <viewControllerLayoutGuide type="bottom" id="tHV-GB-VGq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O5i-UB-eSU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="luY-Cv-5Xc">
+                                <frame key="frameInset" minX="8" minY="72" width="359" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Baby I'm preying on you tonight
+寶貝 今晚等著被我捕獵
+Hunt you down, eat you alive
+捕獲你的真心 吞噬你的生命
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Maybe you think that you can hide
+或許 你認為自己能躲避我的追緝
+I can smell your scent from miles
+但我能從幾里外 嗅出你的氣味
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Baby, I'm
+寶貝 我
+So what you trying to do to me?
+所以嘞 你能拿我怎麼辦
+It's like we can't stop, 
+現在 獵食遊戲無法中止
+we're enemies 
+我們互為敵人
+But we get along when I'm inside you
+只有在親熱時 我們才能和平相處
+
+You're like a drug that's killing me
+你就像毒品 一點一滴吞噬殘害我
+I cut you out entirely
+我要徹底的戒掉你
+But I get so high when I'm inside you
+但我們親熱時 感覺又是如此興奮
+
+Yeah
+You can start over, you can run free
+你可以重頭開始 可以奔向自由
+You can find another fish in the sea
+你能在汪汪大海中 重尋另一條魚
+You can pretend it's meant to be
+你可以裝作我們是命中注定分離
+But you can't stay away from me
+但你無法避我於千里之外
+
+I can still hear you making that sound
+我依舊能聽聞那些聲響
+Taking me down, rolling on the ground
+你撕裂我之聲 蠕動於地面之聲
+You can pretend that it was me, but no
+你能繼續假裝 假裝你身邊男人是我 但事實不然
+
+Baby I'm preying on you tonight
+寶貝 今晚等著被我捕獵
+Hunt you down, eat you alive
+捕獲你的真心 吞噬你的生命
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Maybe you think that you can hide
+或許 你認為自己能躲避我的追緝
+I can smell your scent from miles
+但我能從幾里外 嗅出你的氣味
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Baby, I'm
+
+So if I run, it's not enough
+就算你逃跑 也不夠逃離我手掌
+You're still in my head, forever stuck
+你依舊長存我腦海 永遠糾纏不清
+So you can do what you wanna do
+所以 你就繼續做你渴望的吧
+
+I love your lies, I'll eat them up
+我愛死你的謊言了 我要把他吞下肚
+But don't deny the animal
+但別抗拒 獵食動物的侵蝕
+That comes alive when I'm inside you
+當你竄入我心 我感到活力無比
+
+You can start over, you can run free
+你可以重頭開始 可以奔向自由
+You can find another fish in the sea
+你能在汪汪大海中 重尋另一條魚
+You can pretend it's meant to be
+你可以裝作我們是命中注定分離
+But you can't stay away from me
+但你無法避我於千里之外
+
+I can still hear you making that sound
+我依舊能聽聞那些聲響
+Taking me down, rolling on the ground
+你撕裂我之聲 蠕動於地面之聲
+You can pretend that it was me, but no
+你能繼續假裝 假裝你身邊男人是我 但事實不然
+
+Baby I'm preying on you tonight
+寶貝 今晚等著被我捕獵
+Hunt you down, eat you alive
+捕獲你的真心 吞噬你的生命
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Maybe you think that you can hide
+或許 你認為自己能躲避我的追緝
+I can smell your scent from miles
+但我能從幾里外 嗅出你的氣味
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Baby I'm
+
+Don't tell no lie, lie lie lie
+不要太誠實 說謊吧 說謊吧
+You can't deny, ny ny ny
+你不能抗拒 抗拒 抗拒
+The beast inside, side side side
+內心真實的野獸
+Yeah, yeah, yeah
+
+
+No girl don't lie, lie lie lie
+沒有女孩不說謊的 
+You can't deny, ny ny ny
+你不能抗拒 抗拒 抗拒
+The beast inside, side side side
+內心真實的野獸
+Yeah, yeah, yeah
+
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Baby I'm preying on you tonight
+寶貝 今晚等著被我捕獵
+Hunt you down, eat you alive
+捕獲你的真心 吞噬你的生命
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Maybe you think that you can hide
+或許 你認為自己能躲避我的追緝
+I can smell your scent from miles
+但我能從幾里外 嗅出你的氣味
+Just like animals, animals
+就像 動物 動物 
+Like animals animals
+就像隻 獵食動物
+
+Baby I'm
+
+Don't tell no lie, lie lie lie
+不要太誠實 說謊吧 說謊吧
+You can't deny, ny ny ny
+你不能抗拒 抗拒 抗拒
+The beast inside, side side side
+內心真實的野獸
+Yeah, yeah, yeah
+
+
+No girl don't lie, lie lie lie
+沒有女孩不說謊的 
+You can't deny, ny ny ny
+你不能抗拒 抗拒 抗拒
+The beast inside, side side side
+內心真實的野獸
+Yeah, yeah, yeah
+
+</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Maroon 5 - Animals" id="fuL-KO-7Fc">
+                        <barButtonItem key="backBarButtonItem" title="Maroon 5歌單" id="fNF-4a-uLl"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wlg-jU-Fa6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7385" y="2285"/>
+        </scene>
+        <!--Maroon 5 - Maps-->
+        <scene sceneID="Ori-18-D35">
+            <objects>
+                <viewController title="Maroon 5 - Maps" id="k9l-i9-T4k" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BC0-hc-owX"/>
+                        <viewControllerLayoutGuide type="bottom" id="zJd-9C-Zd4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fZl-m1-TeW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1PN-FI-eJ8">
+                                <frame key="frameInset" minX="8" minY="72" width="359" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I'm at a payphone trying to call home
+我在公共電話前試著打回家...
+All of my change I spent on you
+我所有的錢都花在你身上
+Where are the times gone
+過去的時光跑哪去了 
+Baby it's all wrong, 
+寶貝一切都走樣了
+Where are the plans we made for two?
+屬於我們的未來呢?
+
+Yeah, I, I know it's hard to remember
+我知道這很難想起
+The people we used to be
+過去的我們
+It's even harder to picture
+甚至更難去想像
+That you're not here next to me
+你已不在我身邊
+You said it's too late to make it
+你說已經為時已晚
+But is it too late to try?
+是不是也太難挽回?
+And in our time that you wasted
+你浪費了我們的時光
+All of our bridges burned down
+我們之間的橋樑被破壞了
+
+I've wasted my nights
+我虛度了我的夜晚
+You turned out the lights
+你將我的光明熄滅了
+Now I'm paralyzed
+而我還痴痴地
+Still stuck in that time 
+還停留在那時
+When we called it love
+我們相戀的時候
+But even the sun sets in paradise
+但就算是天堂.也有日落的時候
+
+I'm at a payphone trying to call home
+我在公共電話前試著打回家...
+All of my change I spent on you
+我所有的錢都花在你身上
+Where are the times gone
+過去的時光跑哪去了 
+Baby it's all wrong, 
+寶貝一切都走樣了
+Where are the plans we made for two?
+屬於我們的未來呢?
+
+If happy ever afters did exist
+如果永遠幸福真的存在
+I would still be holding you like this
+我會繼續守護著你
+All those fairy tales are full of shit
+那些童話都是狗屎
+One more fucking love song, I'll be sick
+再來一首情歌,我就快吐了
+
+Oh~You turned your back on tomorrow
+你轉身逃避了明天
+Cause you forgot yesterday
+因為你把昨天給遺忘
+I gave you my love to borrow
+我給了你我的心
+But just gave it away
+而你卻將它遺棄
+
+You can't expect me to be fine
+你不用期望 我過得好不好
+I don't expect you to care
+我也不期望你會關心
+I know I said it before
+我知道我曾經說過
+But all of our bridges burnt down
+我們之間的橋樑被破壞了
+
+I've wasted my nights
+我虛度了我的夜晚
+You turned out the lights
+你將我的光明熄滅了
+Now I'm paralyzed
+而我還痴痴地
+Still stuck in that time 
+還停留在那時
+When we called it love
+我們相戀的時候
+But even the sun sets in paradise
+但就算是天堂.也有日落的時候
+
+I'm at a payphone trying to call home
+我在公共電話前試著打回家...
+All of my change I spent on you
+我所有的錢都花在你身上
+Where are the times gone
+過去的時光跑哪去了 
+Baby it's all wrong, 
+寶貝一切都走樣了
+Where are the plans we made for two?
+屬於我們的未來呢?
+
+If happy ever afters did exist
+如果永遠幸福真的存在
+I would still be holding you like this
+我會繼續守護著你
+All those fairy tales are full of shit
+那些童話都是狗屎
+One more fucking love song, I'll be sick
+再來一首情歌,我就快吐了
+
+Now I am at a payphone...
+現在...我在電話亭內...
+
+[Wiz Khalifa]
+Man,fuck that shit
+喂!我去你的
+I'll be out spending all this money 
+我會花光所有的錢
+While you're sitting roundwondering 
+而你還坐在那裡困惑時
+Why wasn't you who came out from nothing
+為什麼從一開始你無法成功
+Made it from the bottom
+從最底層開始做起
+Now when you see me I'm struting
+現在的我是多麼出色
+And all of my cars start with a push of a button
+我所有的車都有個自動化的按鈕
+Telling me the chances I blew up
+提醒我我所錯過的機遇 
+Or whatever you call it
+或者是隨便你叫的名稱
+Switch the number to my phone
+我換了電話號碼
+So you never could call it
+這樣你永遠無法打給我
+Don't need my name on my show
+我不用自我介紹
+You can tell it i'm ballin'
+你也可以我說很誇大
+
+Shish, what a shame could have got picked
+唉.真可惜你沒有被眷顧
+Had a really good game but you missed your last shot
+一個多麼好的機會而你錯過了
+So you talk about who you see at the top
+而你說的那些地位崇高的人
+Or what you could've saw
+but sad to say it's over for.
+或是那些過去的豐功偉業都不算什麼
+Phantom pulled up valet open doors
+打開了勞斯萊斯的車門
+Wiz like go away, got what you was looking for
+老子我要閃人了,你尋找的東西你找到了嗎?
+Now it's me who they want
+現在他們需要的是我
+So you can go take that little piece of shit with you.
+所以你就跟你的垃圾一起走吧
+
+I'm at a payphone trying to call home
+我在公共電話前試著打回家...
+All of my change I spent on you
+我所有的錢都花在你身上
+Where are the times gone
+過去的時光跑哪去了 
+Baby it's all wrong, 
+寶貝一切都走樣了
+Where are the plans we made for two?
+屬於我們的未來呢?
+
+If happy ever afters did exist
+如果永遠幸福真的存在
+I would still be holding you like this
+我會繼續守護著你
+All those fairy tales are full of shit
+那些童話都是狗屎
+One more fucking love song, I'll be sick
+再來一首情歌,我就快吐了
+
+Now I am at a payphone...
+現在...我在電話亭內...</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Maroon 5 - Maps" id="9gM-29-vuv">
+                        <barButtonItem key="backBarButtonItem" title="Maroon 5歌單" id="y5L-jC-CvM"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qsG-yv-BsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6527" y="2996"/>
+        </scene>
+        <!--Maroon 5 - Payphone-->
+        <scene sceneID="35l-rX-hjA">
+            <objects>
+                <viewController title="Maroon 5 - Payphone" id="eom-aO-JzC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vve-sp-DGx"/>
+                        <viewControllerLayoutGuide type="bottom" id="lnu-uV-Qcx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WzP-rI-FDf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8bb-eF-T0F">
+                                <frame key="frameInset" minX="8" minY="72" width="359" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I miss the taste of a sweeter life
+我懷念 過去如膠似漆的生活
+I miss the conversation
+我懷念  彼此還有交流還有溝通 
+I'm searching for a song tonight
+我正在為今晚找首好歌
+I'm changing all of the stations
+把過去聽的電台全部淘汰
+ 
+ 
+I like to think that we had it all
+我喜歡細細品味我們美好的時光
+We drew a map to a better place
+為了更好的未來 我們齊心建構了藍圖 
+But on that road I took a fall
+但在幸福的路上 我摔了個跤
+Oh baby why did you run away
+噢寶貝 你為何跑開了
+ 
+ 
+I was there for you in your darkest times
+你最黑暗的時刻 我就在那而守候
+I was there for you in your darkest nights
+你最低潮的夜晚 我就在那而等待
+ 
+ 
+But I wonder where were you
+我好想知道你到底在哪  
+when I was at my worst down on my knees
+在我人生最難熬 最脆弱的時候你在何處
+And you said you had my back 
+你說你全心支持我 扶持我
+so I wonder where were you
+所以我真好奇你到底在哪
+When all the roads you took came back to me
+你踏的每一條路 都通到我的人生
+So I'm following the map that leads to you
+所以下張地圖換我來走向你
+ 
+ 
+The map that leads to you
+那張地圖 引領我接近你
+Ain't nothing I can do
+我別無選擇
+The map that leads to you following following following to you
+那張地圖 引領我接近你 跟隨你 跟隨你
+The map that leads to you
+那張地圖 引領我走向你
+Ain't nothing I can do
+我別無選擇
+The map that leads to you following following following
+那張地圖 引領我接近你 跟隨你 跟隨你
+ 
+ 
+I hear your voice in my sleep at night
+連在睡夢中都聽見你的聲音
+Hard to resist temptation
+要抵抗你的誘惑是如此難
+Cause something strange has come over me
+一股怪異的思緒突然竄入心頭
+And now I can't get over you
+看來我還是走不出你的陰影
+No I just can't get over you
+不 我現在還是走不出來
+ 
+ 
+I was there for you in your darkest times
+你最黑暗的時刻 我就在那而守候
+I was there for you in your darkest nights
+你最低潮的夜晚 我就在那而等待</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Maroon 5 - Payphone" id="gHd-uH-U7z">
+                        <barButtonItem key="backBarButtonItem" title="Maroon 5歌單" id="FTd-E9-omP"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5u8-N8-2GX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7385" y="2996"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="MaY-w9-Z7n">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Dvz-6C-8ub" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="tvo-Nq-vJ7">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cdn-4G-znX" kind="relationship" relationship="viewControllers" id="3Xd-SU-obE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMy-wO-i0f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3776.8000000000002" y="1381.2593703148427"/>
+        </scene>
+    </scenes>
+</document>

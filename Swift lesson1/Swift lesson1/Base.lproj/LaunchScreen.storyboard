@@ -28,7 +28,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="食">
                                         <attributes>
-                                            <color key="NSColor" red="0.97574061155319214" green="0.75304430723190308" blue="0.19718310236930847" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="1" green="0.58583679445639381" blue="0.092462887648944059" alpha="0.81398168103448276" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="32" name="PingFangTC-Semibold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -42,7 +42,7 @@
                                     </fragment>
                                     <fragment content="色">
                                         <attributes>
-                                            <color key="NSColor" red="0.4051109254360199" green="0.90962404012680054" blue="0.84053593873977661" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="32" name="PingFangTC-Semibold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -77,15 +77,15 @@
                                 <attributedString key="attributedText">
                                     <fragment content="追尋吃貨的腳步      記住味饕的靈魂深處 ">
                                         <attributes>
-                                            <color key="NSColor" red="0.94819778203964233" green="0.92825311422348022" blue="0.77933502197265625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="13" name="PingFangTC-Regular"/>
+                                            <color key="NSColor" red="0.93480879068374634" green="0.72920004780475811" blue="0.70480919068309067" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="PingFangTC-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="● ● ●">
                                         <attributes>
-                                            <color key="NSColor" red="0.94819778203964233" green="0.92825311422348022" blue="0.77933502197265625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="8" name="PingFangTC-Regular"/>
+                                            <color key="NSColor" red="0.93480879068374634" green="0.72920004780475811" blue="0.70480919068309067" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="9" name="PingFangTC-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
